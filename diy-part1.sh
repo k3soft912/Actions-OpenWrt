@@ -17,7 +17,7 @@
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # Mypackge
-sed -i '$a src-git openwrt-package https://github.com/281677160/openwrt-package.git' >>feeds.conf.default
+sed -i 'src-git openwrt-package https://github.com/281677160/openwrt-package.git' >>feeds.conf.default
 #sed -i '$a src-git packges https://github.com/Myoko/openwrt-packages.git' feeds.conf.default
 #sed -i '$a src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git' feeds.conf.default
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
