@@ -14,7 +14,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # Mypackge
 sed -i 'src-git openwrt-package https://github.com/281677160/openwrt-package.git' >>feeds.conf.default
@@ -23,8 +23,8 @@ sed -i 'src-git openwrt-package https://github.com/281677160/openwrt-package.git
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 #sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
 #sed -i '$a src-git neobird https://github.com/thinktip/luci-theme-neobird.git' feeds.conf.default
-git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
-git clone https://github.com/nikkinikki-org/OpenWrt-nikki package/luci-app-nikki
+#git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+#git clone https://github.com/nikkinikki-org/OpenWrt-nikki package/luci-app-nikki
 git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
 git clone https://github.com/thinktip/luci-theme-neobird package/luci-theme-neobird
 #git clone https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
