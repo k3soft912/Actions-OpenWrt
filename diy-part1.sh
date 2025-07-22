@@ -24,6 +24,7 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 #sed -i '$a src-git neobird https://github.com/thinktip/luci-theme-neobird.git' feeds.conf.default
 #git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
 #git clone https://github.com/Myoko/openwrt-packages package/openwrt-packages
+git clone https://github.com/nikkinikki-org/OpenWrt-nikki package/luci-app-nikki
 git clone https://github.com/thinktip/luci-theme-neobird package/luci-theme-neobird
 #git clone https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 #git clone https://github.com/kiddin9/luci-app-dnsfilter package/luci-app-dnsfilter
